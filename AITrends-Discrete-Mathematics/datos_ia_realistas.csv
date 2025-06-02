@@ -1,0 +1,9 @@
+usuario_id,plataforma1,plataforma2,plataforma3,plataforma4,plataforma5,plataforma6,plataforma7,plataforma8
+1,OpenAI,GoogleAI,OpenAI,HuggingFace,OpenAI,GoogleAI,OpenAI,Cohere
+2,GoogleAI,OpenAI,GoogleAI,Cohere,GoogleAI,OpenAI,GoogleAI,Cohere
+3,Anthropic,OpenAI,HuggingFace,Anthropic,OpenAI,GoogleAI,OpenAI,
+4,Cohere,GoogleAI,OpenAI,Cohere,GoogleAI,OpenAI,GoogleAI,
+5,HuggingFace,OpenAI,GoogleAI,OpenAI,HuggingFace,OpenAI,GoogleAI,
+
+
+
