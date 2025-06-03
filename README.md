@@ -10,12 +10,10 @@ System Purpose and Functionality:
 Markov-AI-Trends is an educational discrete mathematics project that demonstrates real-world applications of Markov chain theory. The system processes user navigation sequences between five major AI platforms and generates statistical predictions about platform switching behaviors and long-term adoption trends.
 
 The application serves dual purposes:
-
 - Academic: Demonstrates discrete mathematics concepts including stochastic matrices, eigenvalue analysis, and probability theory
 - Analytical: Provides insights into AI platform usage patterns and transition probabilities
 
 Core Functionality:
-
 - Load and validate user platform navigation data from CSV files
 - Calculate transition probability matrices with Laplace smoothing
 - Generate n-step predictions using matrix exponentiation
@@ -48,3 +46,34 @@ The system consists of several interconnected modules that handle different aspe
 |----------|----------|----------|
 | Data Loader | obtener_datos_ia_plataformas() | Parse CSV data and validate sequences |
 | Transition Calculator | calcular_matriz_transicion() | Generate stochastic transition matrix |
+| Prediction Engine | calcular_matriz_orden_n() | Compute n-step transition probabilities |
+| Long-term Analyzer | pronosticar_largo_plazo() | Calculate stationary distribution |
+| Recommendation System | generar_recomendaciones() | Identify high-probability transitions |
+| User Interface | main() menu system | Provide interactive console access |
+
+The system maintains mathematical rigor through proper implementation of discrete mathematics concepts while providing an accessible interface for exploring Markov chain applications.
+
+Sources: High-level system diagrams, function analysis
+
+Mathematical Foundation
+The system implements core concepts from discrete mathematics and probability theory:
+
+- Stochastic Matrices: 5×5 transition probability matrices representing platform switching behaviors
+- Markov Property: Memoryless state transitions where future states depend only on current state
+- Matrix Exponentiation: Computing P^n for multi-step predictions using linear algebra
+- Eigenvalue Analysis: Finding stationary distributions through dominant eigenvector calculation
+- Laplace Smoothing: Statistical technique to handle zero probabilities in sparse data
+
+For detailed mathematical theory and implementation specifics, see Mathematical Foundation.
+
+Sources: High-level system diagrams, mathematical model analysis
+
+User Interaction Model:
+The system provides educational access through a console-based menu interface that allows exploration of different analytical perspectives.
+
+The interface prioritizes educational clarity, allowing users to examine the mathematical model from multiple perspectives while maintaining focus on discrete mathematics learning objectives.
+
+Sources: High-level system diagrams, user interaction analysis
+
+Project Context:
+Markov-AI-Trends serves as a final project for a Discrete Mathematics course (2025-01), demonstrating practical applications of theoretical concepts in real-world data analysis scenarios. The system balances academic rigor with practical implementation, using standard scientific Python libraries while maintaining focus on mathematical fundamentals.
